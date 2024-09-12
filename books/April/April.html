@@ -6,69 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
     <style>
         body {
-            margin: 0em;
-            width: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
+        /* Ensure images scale correctly */
         img {
             max-width: 100%;
-        }
-
-        div.books {
-            width: 50%;
-            max-width: 50%;
-            box-shadow: 0px 0px 10px #5c5252;
-            margin: 0.5em auto;
-            padding: 5px 10px;
-            border-radius: 0.5em;
-
-        }
-
-        .book-cover-image {
-            float: left;
-            margin-right: 1em;
-            width: 15.565em;
-            height: 24.065em;
-
-
-        }
-
-        h2 {
-            margin-top: 0em;
-            font-family: Bahnschrift SemiBold;
-        }
-
-        p {
-            font-size: 1.1em;
+            height: auto;
         }
 
         .container {
-            width: 20%;
-            max-width: 20%;
-            min-width: 20%;
-            float: left;
-            margin-left: 0.5em;
+            width: 90%;
+            max-width: 400px;
+            margin: 1em auto;
+            padding: 1em;
             background-color: #f5e8e8;
-            padding: 0.6em;
             border-radius: 0.8em;
             box-shadow: 0 0 1em rgb(105, 97, 97);
             text-align: center;
-            position: fixed;
-
+            position: relative;
         }
 
         h1 {
-            color: #333;
             font-size: 1.2em;
-            font-family: Bahnschrift SemiBold;
+            color: #333;
+            margin-bottom: 1em;
         }
 
         .button {
             display: inline-block;
-            margin: 1em;
-            padding: 0.2em 0.3em;
+            margin: 0.5em;
+            padding: 0.5em 1em;
             font-size: 1em;
             color: #fff;
             background-color: #007bff;
@@ -82,28 +61,70 @@
             background-color: #0056b3;
         }
 
-        .author-image {
-            display: inline;
+        .Books {
+            width: 90%;
+            max-width: 800px;
+            margin: 1em auto;
+            padding: 1em;
+            border-radius: 0.5em;
+            box-shadow: 0 0 10px #5c5252;
+            background-color: #fff;
+            overflow: hidden;
+        }
 
+        .book-cover-image,
+        .author-image {
+            margin: 0;
+        }
+
+        .book-cover-image {
+            float: left;
+            margin-right: 1em;
+            width: 250px;
+            /* Adjust as needed */
+        }
+
+        .author-image {
+            margin-top: 1em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-family:Bahnschrift SemiBold, sans-serif;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+
+            .container,
+            .Books {
+                width: 95%;
+            }
+
+            .book-cover-image {
+                width: 100px;
+                /* Adjust as needed */
+            }
+
+            h1,
+            h2 {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- Getting/Buying the books container -->
-    <div class="container">
-        <h1>Buy The Case for Christ: Student Edition</h1>
-        <a href=" https://www.amazon.com/Defined-Younger-Activity-Study-Identity/dp/1535956763/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.E3s9DiR-7NB9EPQfL5X0sWfKJjg2GCQJ7pD52XD-49J0RYXm0a8MWL_FNfCPkXdPshuq01hr_iAPkJ7PqB4ygeSAwHmF2XUvW0tt9FRcZNfgpHQWdbVW43g-503_BanuFntgJRQ3uJJfJKhgIeFb9DrRMMZ5GJ60pNYdYmxFl_DeoHL-3L3WlittuayFPFYW.Qq_vKU8l0ITnqdRBmxkaorelv6vyQoagx8ZOUiAZCdY&dib_tag=se&keywords=defined%3A+who+god+says+you+are&qid=1725979639&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 " class="button">Buy
-            on Amazon</a>
-        <a href=" https://www.barnesandnoble.com/w/defined-stephen-kendrick/1131182772?ean=9781535948920 " class="button">Buy 
-            on Barnes & Noble</a>
-        <a href=" https://www.christianbook.com/defined-says-older-kids-activity-pages/9781535956789/pd/956786?product_redirect=1&search_term=definedwho%20god%20says%20you%20are&Ntt=956786&item_code=&ps_exit=PRODUCT|legacy&Ntk=keywords&event=ESRCP " class="button">Buy
-            on Christian Books</a>
-    </div>
-    <!-- Getting/Buying books End! -->
+    
 
     <!-- Book Cover image -->
-    <div class="books">
+    <div class="Books">
         <div class="book-cover-image">
             <img src="book4-cover.jpg" alt="book cover">
         </div>
@@ -174,7 +195,17 @@
         <!-- Summary End! -->
     </div>
 
-
+<!-- Getting/Buying the books container -->
+<div class="container">
+    <h1>Buy The Case for Christ: Student Edition</h1>
+    <a href=" https://www.amazon.com/Defined-Younger-Activity-Study-Identity/dp/1535956763/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.E3s9DiR-7NB9EPQfL5X0sWfKJjg2GCQJ7pD52XD-49J0RYXm0a8MWL_FNfCPkXdPshuq01hr_iAPkJ7PqB4ygeSAwHmF2XUvW0tt9FRcZNfgpHQWdbVW43g-503_BanuFntgJRQ3uJJfJKhgIeFb9DrRMMZ5GJ60pNYdYmxFl_DeoHL-3L3WlittuayFPFYW.Qq_vKU8l0ITnqdRBmxkaorelv6vyQoagx8ZOUiAZCdY&dib_tag=se&keywords=defined%3A+who+god+says+you+are&qid=1725979639&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 " class="button">Buy
+        on Amazon</a>
+    <a href=" https://www.barnesandnoble.com/w/defined-stephen-kendrick/1131182772?ean=9781535948920 " class="button">Buy 
+        on Barnes & Noble</a>
+    <a href=" https://www.christianbook.com/defined-says-older-kids-activity-pages/9781535956789/pd/956786?product_redirect=1&search_term=definedwho%20god%20says%20you%20are&Ntt=956786&item_code=&ps_exit=PRODUCT|legacy&Ntk=keywords&event=ESRCP " class="button">Buy
+        on Christian Books</a>
+</div>
+<!-- Getting/Buying books End! -->
 
 </body>
 

@@ -8,65 +8,38 @@
     <title>Books</title>
     <style>
         body {
-            margin: 0em;
-            width: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
+        /* Ensure images scale correctly */
         img {
             max-width: 100%;
-        }
-
-        div.books {
-            width: 50%;
-            max-width: 50%;
-            box-shadow: 0px 0px 10px #5c5252;
-            margin: 0.5em auto;
-            padding: 5px 10px;
-            border-radius: 0.5em;
-
-        }
-
-        .book-cover-image {
-            float: left;
-            margin-right: 1em;
-            width: 11.6875em;
-            height: 17em;
-        }
-
-        h2 {
-            margin-top: 0em;
-            font-family: Bahnschrift SemiBold;
-        }
-
-        p {
-            font-size: 1.1em;
+            height: auto;
         }
 
         .container {
-            width: 20%;
-            max-width: 20%;
-            min-width: 20%;
-            float: left;
-            margin-left: 0.5em;
+            width: 90%;
+            max-width: 400px;
+            margin: 1em auto;
+            padding: 1em;
             background-color: #f5e8e8;
-            padding: 0.6em;
             border-radius: 0.8em;
             box-shadow: 0 0 1em rgb(105, 97, 97);
             text-align: center;
-            position: fixed;
-
+            position: relative;
         }
 
         h1 {
-            color: #333;
             font-size: 1.2em;
-            font-family: Bahnschrift SemiBold;
+            color: #333;
+            margin-bottom: 1em;
         }
 
         .button {
             display: inline-block;
-            margin: 1em;
-            padding: 0.2em 0.3em;
+            margin: 0.5em;
+            padding: 0.5em 1em;
             font-size: 1em;
             color: #fff;
             background-color: #007bff;
@@ -80,33 +53,70 @@
             background-color: #0056b3;
         }
 
-        .author-image {
-            display: inline;
+        .Books {
+            width: 90%;
+            max-width: 800px;
+            margin: 1em auto;
+            padding: 1em;
+            border-radius: 0.5em;
+            box-shadow: 0 0 10px #5c5252;
+            background-color: #fff;
+            overflow: hidden;
         }
 
+        .book-cover-image,
+        .author-image {
+            margin: 0;
+        }
 
+        .book-cover-image {
+            float: left;
+            margin-right: 1em;
+            width: 250px;
+            /* Adjust as needed */
+        }
 
-        .try {
-            border: 3px solid black;
+        .author-image {
+            margin-top: 1em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-family:Bahnschrift SemiBold, sans-serif;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+
+            .container,
+            .Books {
+                width: 95%;
+            }
+
+            .book-cover-image {
+                width: 100px;
+                /* Adjust as needed */
+            }
+
+            h1,
+            h2 {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- Getting/Buying the books container -->
-    <div class="container">
-        <h1>Buy (Live Fearless: A call to power, passion, and purpose.)</h1>
-        <a href="https://www.amazon.com/Live-Fearless-Power-Passion-Purpose-ebook/dp/B072TNZHM8/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=" class="button">Buy
-            on Amazon</a>
-        <a href="https://www.barnesandnoble.com/w/live-fearless-sadie-robertson-huff/1137885823?ean=9781400309429" class="button">Buy 
-            on Barnes & Noble</a>
-        <a href="https://www.christianbook.com/apps/easyfind?Ntt=Live+Fearless%3A+A+call+to+power%2C+passion%2C+and+purpose&Ntk=keywords&action=Search&Ne=0&event=ESRCG&nav_search=1&cms=1&ps_exit=RETURN%7Clegacy&ps_domain=www" class="button">Buy
-            on Christian Books</a>
-    </div>
-    <!-- Getting/Buying books End! -->
+
 
     <!-- Book Cover image -->
-    <div class="books">
+    <div class="Books">
         <div class="book-cover-image">
             <img src="book3-cover.jfif" alt="book cover">
         </div>
@@ -176,7 +186,20 @@
         <!-- Summary End! -->
     </div>
 
-
+    <!-- Getting/Buying the books container -->
+    <div class="container">
+        <h1>Buy (Live Fearless: A call to power, passion, and purpose.)</h1>
+        <a href="https://www.amazon.com/Live-Fearless-Power-Passion-Purpose-ebook/dp/B072TNZHM8/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+            class="button">Buy
+            on Amazon</a>
+        <a href="https://www.barnesandnoble.com/w/live-fearless-sadie-robertson-huff/1137885823?ean=9781400309429"
+            class="button">Buy
+            on Barnes & Noble</a>
+        <a href="https://www.christianbook.com/apps/easyfind?Ntt=Live+Fearless%3A+A+call+to+power%2C+passion%2C+and+purpose&Ntk=keywords&action=Search&Ne=0&event=ESRCG&nav_search=1&cms=1&ps_exit=RETURN%7Clegacy&ps_domain=www"
+            class="button">Buy
+            on Christian Books</a>
+    </div>
+    <!-- Getting/Buying books End! -->
 
 </body>
 

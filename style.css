@@ -1,4 +1,3 @@
-
 /*
 Template Name: Kindle	
 Author: MarkUps
@@ -31,7 +30,7 @@ Version: 1.0
 
 body,
 html {
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 
 body {
@@ -53,9 +52,9 @@ ul li {
 	line-height: 1.59;
 }
 
-a { 
+a {
 	text-decoration: none;
-	color: #2f2f2f;  
+	color: #2f2f2f;
 }
 
 a:hover,
@@ -80,25 +79,25 @@ h1 {
 	font-size: 38px;
 }
 
-h2 {  
-	font-size: 32px; 
-	line-height: 1.13; 
+h2 {
+	font-size: 32px;
+	line-height: 1.13;
 }
 
-h3 {  
-	font-size: 26px;  
+h3 {
+	font-size: 26px;
 }
 
-h4 {  
-	font-size: 22px;  
+h4 {
+	font-size: 22px;
 }
 
-h5 {  
-	font-size: 20px;  
+h5 {
+	font-size: 20px;
 }
 
-h6 {  
-	font-size: 18px;  
+h6 {
+	font-size: 18px;
 }
 
 img {
@@ -129,7 +128,7 @@ pre code {
 	color: #333;
 }
 
-del{
+del {
 	text-decoration-color: #ee6e73;
 }
 
@@ -137,7 +136,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	
+
 }
 
 address {
@@ -157,7 +156,7 @@ blockquote {
 	background-color: #f8f8f8;
 	border-radius: 0 4px 4px 0;
 	padding: 5px 15px;
-	
+
 }
 
 blockquote p {
@@ -177,19 +176,19 @@ button:focus {
 /*Wordpress default class*/
 
 .alignleft {
-	float:left;
-	margin-right:8px;
+	float: left;
+	margin-right: 8px;
 }
 
 .aligncenter {
-	display:block;
-	margin:10px auto;
+	display: block;
+	margin: 10px auto;
 }
 
 .alignright {
-	float:right;
-	margin-left:8px;
-}		
+	float: right;
+	margin-left: 8px;
+}
 
 .alignnone {
 	max-width: 100%;
@@ -274,12 +273,12 @@ button:focus {
 	color: #fff;
 }
 
-.navbar-brand img{
+.navbar-brand img {
 	margin-top: -12px;
 }
 
-#mu-header.mu-fixed-nav{
-	background-color: rgba(0,0,0,0.8);
+#mu-header.mu-fixed-nav {
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
 	position: fixed;
 	padding: 15px 0;
@@ -316,29 +315,29 @@ button:focus {
 	color: #fff;
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:focus, 
-.navbar-default .navbar-nav > .active > a:hover{
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent;
 	color: #fff;
 }
 
 .navbar-default .mu-menu li a:after {
-    display: block;
-    position: absolute;
-    bottom: -5px;
-    content: '';
-    width: 0;
-    height: 2px;
-    background: #fff;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+	display: block;
+	position: absolute;
+	bottom: -5px;
+	content: '';
+	width: 0;
+	height: 2px;
+	background: #fff;
+	-webkit-transition: all .5s;
+	transition: all .5s;
 }
 
 .navbar-default .mu-menu li.active a:after,
-.navbar-default .mu-menu li a:hover:after, 
+.navbar-default .mu-menu li a:hover:after,
 .navbar-default .mu-menu li a:focus:after {
-    width: 100%;
+	width: 100%;
 }
 
 
@@ -353,7 +352,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-hero-left{
+.mu-hero-left {
 	display: inline;
 	float: left;
 	width: 100%;
@@ -452,6 +451,7 @@ button:focus {
 .mu-counter-name {
 	color: #333;
 }
+
 .reduce-font-size {
 	font-size: 18px;
 }
@@ -497,7 +497,7 @@ button:focus {
 	margin-bottom: 20px;
 }
 
-.mu-book-overview-content{
+.mu-book-overview-content {
 	display: inline;
 	float: left;
 	margin-top: 70px;
@@ -519,10 +519,10 @@ button:focus {
 	margin-bottom: 10px;
 	display: inline-block;
 	margin-top: -5px;
-	
+
 }
 
-.mu-book-overview-single h4{
+.mu-book-overview-single h4 {
 	margin-bottom: 20px;
 }
 
@@ -559,8 +559,8 @@ button:focus {
 	width: 100%;
 }
 
-.mu-video-review-area .mu-heading-title, 
-.mu-video-review-area .mu-heading-area p{
+.mu-video-review-area .mu-heading-title,
+.mu-video-review-area .mu-heading-area p {
 	color: #fff;
 }
 
@@ -599,7 +599,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-author-content{
+.mu-author-content {
 	display: inline;
 	float: left;
 	margin-top: 50px;
@@ -668,7 +668,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-pricing-content{
+.mu-pricing-content {
 	display: inline;
 	float: left;
 	margin-top: 70px;
@@ -761,7 +761,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/about-pic.gif");
+	background-image: url("assets/images/giphy.webp");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -772,14 +772,14 @@ button:focus {
 }
 
 #mu-testimonials::before {
-	background: rgba(0,0,0,0.9);
+	background: rgba(0, 0, 0, 0.9);
 	bottom: 0;
 	content: '';
 	left: 0;
 	top: 0;
 	right: 0;
 	position: absolute;
-	opacity: 0.84;
+	opacity: 0.1;
 }
 
 .mu-testimonials-area {
@@ -801,7 +801,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-testimonial-slide li{
+.mu-testimonial-slide li {
 	list-style: none;
 	text-align: center;
 }
@@ -833,7 +833,7 @@ button:focus {
 }
 
 .mu-testimonial-slide .slick-dots {
-    bottom: -50px;
+	bottom: -50px;
 }
 
 .mu-testimonial-slide .slick-dots li button {
@@ -905,7 +905,7 @@ button:focus {
 	margin-bottom: 24px;
 }
 
-.mu-contact-form .form-group textarea{
+.mu-contact-form .form-group textarea {
 	color: #333;
 	background: transparent;
 	border: 1px solid #ccc;
@@ -917,62 +917,64 @@ button:focus {
 
 .mu-contact-form .form-control:focus {
 	background-color: #fff;
-    outline: 0;
-    box-shadow: none;    
-} 
+	outline: 0;
+	box-shadow: none;
+}
 
 .mu-contact-form .form-control::-webkit-input-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #888;
-	font-size: 15px; 
-}
-
-.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+.mu-contact-form .form-control:-moz-placeholder {
+	/* Firefox 18- */
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-ms-input-placeholder {  
+.mu-contact-form .form-control::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #888;
+	font-size: 15px;
+}
+
+.mu-contact-form .form-control:-ms-input-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
 .mu-contact-form .button-default::after,
-.mu-contact-form .button-default > span {
-	padding: 12px 40px;  
+.mu-contact-form .button-default>span {
+	padding: 12px 40px;
 }
 
 #form-messages {
 	margin-bottom: 10px;
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .success {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #468847;
-  background-color: #dff0d8;
-  border: 1px solid #d6e9c6;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #468847;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 .error {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #b94a48;
-  background-color: #f2dede;
-  border: 1px solid rgba(185, 74, 72, 0.3);
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid rgba(185, 74, 72, 0.3);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 
@@ -984,8 +986,8 @@ button:focus {
 	width: 100%;
 }
 
-#mu-google-map iframe{
-    pointer-events: none;
+#mu-google-map iframe {
+	pointer-events: none;
 }
 
 
@@ -994,13 +996,13 @@ button:focus {
 /*--------------------*/
 
 
-#mu-footer{
+#mu-footer {
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-footer-area{
+.mu-footer-area {
 	display: inline;
 	float: left;
 	padding: 30px 0;
@@ -1008,7 +1010,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-footer-area a{
+.mu-footer-area a {
 	font-weight: 600;
 }
 
@@ -1047,13 +1049,13 @@ button:focus {
 /*--------------------*/
 
 @media (max-width: 1199px) {
-	
+
 	.mu-hero-left h1 {
 		font-size: 36px;
 	}
 
 	.navbar-brand img {
-		width: 180px;
+		width: 130px;
 		margin-top: -10px;
 	}
 
@@ -1069,7 +1071,7 @@ button:focus {
 		height: 450px;
 	}
 
-	
+
 }
 
 @media (max-width: 991px) {
@@ -1078,11 +1080,11 @@ button:focus {
 	.mu-fixed-nav .navbar-brand img {
 		margin-top: -7px;
 	}
-	
+
 	.navbar-default .mu-menu li a {
 		font-size: 14px;
 		margin: 10px 5px;
-	}	
+	}
 
 	#mu-hero {
 		padding: 130px 0 30px;
@@ -1102,18 +1104,18 @@ button:focus {
 		margin-bottom: 40px;
 	}
 
-	.mu-simplefilter li{
+	.mu-simplefilter li {
 		margin-bottom: 10px;
 	}
 
-	.mu-clients-content-single img{
+	.mu-clients-content-single img {
 		width: 100%;
 	}
 
 	.mu-contact-right {
 		margin-top: 50px;
 	}
-	
+
 	.mu-video-review-content {
 		padding: 0 5%;
 	}
@@ -1121,7 +1123,7 @@ button:focus {
 	.mu-video-iframe {
 		height: 400px;
 	}
-		
+
 }
 
 @media (max-width: 767px) {
@@ -1139,7 +1141,7 @@ button:focus {
 	}
 
 	.navbar-default .navbar-toggle:hover,
-	.navbar-default .navbar-toggle:focus{
+	.navbar-default .navbar-toggle:focus {
 		background-color: transparent;
 	}
 
@@ -1147,8 +1149,9 @@ button:focus {
 		background-color: #fff;
 	}
 
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		background-color: rgba(0,0,0,0.8);
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		background-color: rgba(0, 0, 0, 0.8);
 		text-align: center;
 	}
 
@@ -1171,17 +1174,17 @@ button:focus {
 	.mu-contact-content {
 		padding: 0 10%;
 	}
-	
-		
+
+
 }
 
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
 
 	#mu-header.mu-fixed-nav {
 		padding: 10px 0;
 	}
-	
+
 	.mu-heading-area {
 		padding: 0;
 	}
@@ -1199,7 +1202,7 @@ button:focus {
 	.slick-dots {
 		bottom: 15px;
 	}
-			
+
 
 }
 
@@ -1207,7 +1210,7 @@ button:focus {
 @media (max-width: 480px) {
 
 	.navbar-brand img {
-		width: 150px;
+		width: 100px;
 	}
 
 	#mu-header {
@@ -1215,22 +1218,23 @@ button:focus {
 	}
 
 	.navbar-default .navbar-brand {
-		font-size: 25px;
+		font-size: 22px;
 		margin-top: -3px;
 	}
 
 	.navbar-toggle {
 		padding: 7px 8px;
 		margin-top: 10px;
+
 	}
 
 
 	.navbar-toggle .icon-bar {
 		width: 18px;
-		
+
 	}
 
-	h2{
+	h2 {
 		font-size: 25px;
 	}
 
@@ -1260,11 +1264,11 @@ button:focus {
 	.mu-contact-form button {
 		width: 100%;
 	}
-	
+
 }
 
 
-@media (max-width: 360px){
+@media (max-width: 360px) {
 
 	.mu-featured-slider-content {
 		top: 49%;
@@ -1290,7 +1294,7 @@ button:focus {
 		font-size: 12px;
 	}
 
-	.mu-team-content .row > div {
+	.mu-team-content .row>div {
 		width: 100%;
 	}
 
@@ -1298,18 +1302,12 @@ button:focus {
 		padding: 1rem 1rem;
 		font-size: 12px;
 	}
-	
+
 }
 
 
 
-@media (max-width: 320px){
-	
-	
-	
-	
-	
-}
+@media (max-width: 320px) {}
 
 
 /* my own adjustment */
@@ -1321,18 +1319,19 @@ p.welcome-note {
 	border-bottom: 1px solid #fff40a;
 	padding: 5px 0;
 }
+
 p.mission-statement {
 	font-size: 1.125em;
 }
+
 div.about-continues {
 	width: 100%;
 	font-size: 1.125em;
 	position: relative;
 	top: -110px;
 	margin: 0px auto;
-	/* border: 1px solid black; */
 	padding-left: 50px;
-	box-shadow: 0px 0px 10px rgb(82, 78, 78);
+	box-shadow: 0px 0px 10px rgb(124, 121, 121);
 	border-radius: 5px;
 	max-width: 100%;
 }
@@ -1352,44 +1351,45 @@ ul>li {
 /* for the quiz */
 
 .quiz-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 100%;
-    /* max-width: 600px; */
-    text-align: center;
-    
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 100%;
+
+	text-align: center;
+
 }
 
 .quizh1 {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .question {
-    margin-bottom: 20px;
-    text-align: left;
+	margin-bottom: 20px;
+	text-align: left;
 }
 
-/* label*/.quiz { 
-    display: block;
-    margin: 10px 0;
+/* label*/
+.quiz {
+	display: block;
+	margin: 10px 0;
 }
 
 .quiz-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 .quiz-button:hover {
-    background-color: #555;
+	background-color: #555;
 }
 
 #result {
-    margin-top: 20px;
-    font-weight: bold;
+	margin-top: 20px;
+	font-weight: bold;
 }

@@ -8,55 +8,64 @@
     <title>Books</title>
     <style>
         body {
-            margin: 0em;
-            width: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
+        /* Ensure images scale correctly */
         img {
             max-width: 100%;
+            height: auto;
         }
 
-        div.books {
-            width: 50%;
-            max-width: 50%;
+        .books {
+            width: 90%;
+            max-width: 800px;
+            margin: 1em auto;
+            padding: 1em;
             box-shadow: 0px 0px 10px #5c5252;
-            margin: 0.5em auto;
-            padding: 5px 10px;
             border-radius: 0.5em;
+            background-color: #fff;
+            overflow: hidden;
+        }
 
+        .book-cover-image,
+        .author-image {
+            margin: 0;
         }
 
         .book-cover-image {
             float: left;
             margin-right: 1em;
-            width: 15.565em;
-            height: 24.065em;
-            
-            
+            width: 250px;
+        }
+
+        .author-image {
+            margin-top: 1em;
         }
 
         h2 {
+            font-size: 1.2em;
             margin-top: 0em;
-            font-family: Bahnschrift SemiBold;
+            margin-bottom: 0.5em;
+            font-family: Bahnschrift SemiBold, sans-serif;
         }
 
         p {
             font-size: 1.1em;
+            line-height: 1.6;
         }
 
         .container {
-            width: 20%;
-            max-width: 20%;
-            min-width: 20%;
-            float: left;
-            margin-left: 0.5em;
+            width: 90%;
+            max-width: 400px;
+            margin: 1em auto;
+            padding: 1em;
             background-color: #f5e8e8;
-            padding: 0.6em;
             border-radius: 0.8em;
             box-shadow: 0 0 1em rgb(105, 97, 97);
             text-align: center;
-            position: fixed;
-            
+            position: relative;
         }
 
         h1 {
@@ -82,35 +91,33 @@
             background-color: #0056b3;
         }
 
-        .author-image {
-            display: inline;
+        @media (max-width: 768px) {
+
+            .container,
+            .books {
+                width: 95%;
+            }
             
+            .book-cover-image {
+                width: 100px;
+                margin-top: 2em;
+            }
+
+            h1,
+            h2 {
+                font-size: 1.2em;
+            }
         }
-
-        
-
-
     </style>
 </head>
 
 <body>
-    <!-- Getting/Buying the books container -->
-    <div class="container">
-        <h1>Buy The Case for Christ: Student Edition</h1>
-        <a href="https://www.amazon.com/Case-Christ-Student-Journalists-Investigation/dp/0310745640" class="button">Buy
-            on Amazon</a>
-        <a href="https://www.barnesandnoble.com/w/the-case-for-christ-student-edition-lee-strobel/1100313344"
-            class="button">Buy on Barnes & Noble</a>
-        <a href="https://www.christianbook.com/case-christ-student-edition-lee-strobel/9780310745648/pd/745648"
-            class="button">Buy
-            on Christian Books</a>
-    </div>
-    <!-- Getting/Buying books End! -->
+
 
     <!-- Book Cover image -->
     <div class="books">
         <div class="book-cover-image">
-         <img src="book1.jpg" alt="book cover" >
+            <img src="book1.jpg" alt="book cover">
         </div>
         <!-- Book Cover image -->
 
@@ -119,9 +126,9 @@
         <h2>About the Author</h2>
 
         <!-- Author image -->
-         <div class="author-image">
-             <img src="Author-image-book1.webp" alt="author-image"> 
-         </div>
+        <div class="author-image">
+            <img src="Author-image-book1.webp" alt="author-image">
+        </div>
         <!-- Author image End! -->
 
         <p>
@@ -173,7 +180,18 @@
         </p>
         <!-- Summary End! -->
     </div>
-
+    <!-- Getting/Buying the books container -->
+    <div class="container">
+        <h1>Buy The Case for Christ: Student Edition</h1>
+        <a href="https://www.amazon.com/Case-Christ-Student-Journalists-Investigation/dp/0310745640" class="button">Buy
+            on Amazon</a>
+        <a href="https://www.barnesandnoble.com/w/the-case-for-christ-student-edition-lee-strobel/1100313344"
+            class="button">Buy on Barnes & Noble</a>
+        <a href="https://www.christianbook.com/case-christ-student-edition-lee-strobel/9780310745648/pd/745648"
+            class="button">Buy
+            on Christian Books</a>
+    </div>
+    <!-- Getting/Buying books End! -->
 
 
 </body>
