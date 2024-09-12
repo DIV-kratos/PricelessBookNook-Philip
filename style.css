@@ -1218,7 +1218,7 @@ button:focus {
 	}
 
 	.navbar-default .navbar-brand {
-		font-size: 22px;
+		font-size: 22.5px;
 		margin-top: -3px;
 	}
 
@@ -1267,8 +1267,60 @@ button:focus {
 
 }
 
+@media (max-width: 375px) {
+	.navbar-brand img {
+		width: 100px;
+	}
+
+	#mu-header {
+		padding: 10px 0;
+	}
+
+	.navbar-default .navbar-brand {
+		font-size: 20px;
+		margin-top: -3px;
+	}
+
+	.navbar-toggle {
+		padding: 7px 8px;
+		margin-top: 10px;
+
+	}
+
+
+	.navbar-toggle .icon-bar {
+		width: 18px;
+
+	}
+}
+
 
 @media (max-width: 360px) {
+
+	.navbar-brand img {
+		width: 100px;
+	}
+
+	#mu-header {
+		padding: 10px 0;
+	}
+
+	.navbar-default .navbar-brand {
+		font-size: 20px;
+		margin-top: -3px;
+	}
+
+	.navbar-toggle {
+		padding: 7px 8px;
+		margin-top: 10px;
+
+	}
+
+
+	.navbar-toggle .icon-bar {
+		width: 18px;
+
+	}
 
 	.mu-featured-slider-content {
 		top: 49%;
