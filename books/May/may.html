@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Ensure images scale correctly */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            margin: 1em auto;
+            padding: 1em;
+            background-color: #f5e8e8;
+            border-radius: 0.8em;
+            box-shadow: 0 0 1em rgb(105, 97, 97);
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 1em;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 0.5em;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .Books {
+            width: 90%;
+            max-width: 800px;
+            margin: 1em auto;
+            padding: 1em;
+            border-radius: 0.5em;
+            box-shadow: 0 0 10px #5c5252;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .book-cover-image,
+        .author-image {
+            margin: 0;
+        }
+
+        .book-cover-image {
+            float: left;
+            margin-right: 1em;
+            width: 250px;
+            /* Adjust as needed */
+        }
+
+        .author-image {
+            margin-top: 1em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-family: Bahnschrift SemiBold, sans-serif;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        ol>li {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+
+            .container,
+            .Books {
+                width: 95%;
+            }
+
+            .book-cover-image {
+                width: 100px;
+                border: 1px solid red;
+                margin-top: 25px;
+                /* Adjust as needed */
+            }
+
+            h1,
+            h2 {
+                font-size: 1.2em;
+            }
+            .author {
+                width: 200px;
+                height: 120px;
+            }
+            .img-pic {
+                height: 130px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Book Cover image -->
+    <div class="Books">
+        <div class="book-cover-image">
+            <img src="book5-cover.jfif" alt="book cover" class="img-pic">
+        </div>
+        <!-- About Author -->
+        <h2>About the Authors</h2>
+        <div class="author-image">
+            <img src="author-image-book6.jfif" alt="author" class="author">
+        </div>
+        <p>
+            <b> Rice Broocks</b> is a renowned Christian author, speaker, and pastor known for his impactful work in the
+            realm of faith and apologetics. He is the founder of the Every Nation movement, a global network of churches
+            and ministries dedicated to spreading the message of Jesus Christ. Broocks has dedicated much of his career
+            to equipping individuals with a robust understanding of Christianity, particularly through engaging and
+            accessible resources.
+
+            His book, God's Not Dead: Student Edition, is a testament to his commitment to empowering young believers.
+            In this edition, Broocks addresses the common doubts and challenges faced by students, offering compelling
+            arguments and insights to strengthen their faith. Drawing on his extensive experience in ministry and his
+            deep understanding of contemporary issues, Broocks presents a case for Christianity that is both
+            intellectually stimulating and spiritually nurturing.
+
+            Through his writing, speaking engagements, and leadership, Rice Broocks continues to inspire and challenge
+            people of all ages to explore and deepen their faith. His work remains a valuable resource for those seeking
+            to understand and defend their beliefs in an increasingly complex world.
+        </p>
+        <!-- About Author End -->
+
+        <!-- Summary of the Books -->
+        <h2>Summary</h2>
+        <p>
+            <b>"God's Not Dead: Student Edition"</b>, Rice
+            Broocks tackles questions and doubts that often arise among students as they navigate their faith in
+            academic and social environments. The book is structured around a series of chapters that offer evidence and
+            reasoning to support the existence of God and the truth of Christianity.
+
+            Key elements of the book include:
+        <ol>
+            <li> Intellectual Foundations:</li> Broocks presents logical arguments and scientific evidence to affirm the
+            existence
+            of God, addressing philosophical and empirical challenges posed by atheism and agnosticism.
+
+            <li> Historical and Biblical Evidence:</li> The book provides historical context and examines the
+            credibility of
+            biblical events and figures, arguing for the reliability of Christian scriptures.
+
+            <li> Personal Stories and Testimonies:</li> To make the arguments relatable, Broocks includes real-life
+            testimonies
+            and stories of individuals whose lives have been transformed by faith.
+
+            <li> Practical Advice: </li>The Student Edition offers practical tips for students on how to engage in
+            respectful and
+            informed discussions about their faith, navigate skepticism, and strengthen their personal belief systems.
+
+            Overall, God's Not Dead: Student Edition serves as a guide for young people seeking to understand and defend
+            their faith in a rational and thoughtful manner, encouraging them to stand firm in their beliefs while
+            engaging with challenging ideas.
+
+
+
+        </ol>
+        </p>
+        <!-- Summary End! -->
+    </div>
+    <!-- Getting/Buying the books container -->
+    <div class="container">
+        <h1>Get "God's Not Dead: Student Edition"</h1>
+        <a href="https://www.amazon.com/Gods-Not-Dead-Evidence-Uncertainty-ebook/dp/B00A0VPBV2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=" class="button">Get on
+            Amazon</a>
+        <a href="https://www.barnesandnoble.com/w/gods-not-dead-rice-broocks/1111892750?ean=9780849964305"
+            class="button">Get on Barnes & Noble</a>
+        <a href="https://www.christianbook.com/gods-not-dead-evidence-uncertainty-ebook/rice-broocks/9780849964305/pd/34798EB?event=GOOGORG "
+            class="button">Get on Christian Books</a>
+    </div>
+    <!-- Getting/Buying books End! -->
+</body>
+
+</html>
